@@ -21,11 +21,18 @@ python SendEmail.py --smtp_host SMTP_HOST_MACHINE_NAME --to /home/sfwgeek/to.txt
 python SendEmail.py --smtp_host /home/sfwgeek/smtp_host.txt --to /home/sfwgeek/to.txt --subject /home/sfwgeek/subject.txt --body /home/sfwgeek/body.txt --from /home/sfwgeek/from.txt
 ```
 
-###py2exe:
 
+###py2exe:
+Dependencies:
+1. [http://www.py2exe.org/](http://www.py2exe.org/)
+
+To create binaries of the script use the following command.
+
+```
+python setup.py py2exe
+```
 
 
 ###TODO:
 1. Add BCC functionality.
 2. Add HTML body functionality.
-3. Add py2exe code and instructions.
